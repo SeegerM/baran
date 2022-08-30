@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+raha/.idea/
+.ipynb_checkpoints/
+__pycache__/
+*.egg-info/
+agModels/
+venv/
+
+*/datawigModels/
