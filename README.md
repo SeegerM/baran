@@ -1,3 +1,13 @@
+# Marcian Changes
+To run the code, check out https://github.com/SeegerM/baran.
+Install all requirements.
+Then under raha/correction.py, execute the main.
+To change the data set, change 'dataset_name'.
+You can execute all new changes if 'FEATURE_GENERATORS' contains
+'rule', 'type', and 'sim'.
+e.g., app.FEATURE_GENERATORS = ['value', 'domain', 'vicinity', 'rule', 'type', 'sim']
+Baran will run and print statistics at the end, like recall, precision, f1, and runtime in seconds.
+
 # Raha and Her Younger Sister Baran
 Detecting and correcting erroneous values are key steps in data cleaning. Error detection/correction systems usually require a user to provide input configurations in the form of integrity constraints or statistical parameters. However, providing a complete, yet correct, set of configurations for each new dataset is tedious and error-prone, as the user has to know about both the dataset and the data cleaning system upfront.
 

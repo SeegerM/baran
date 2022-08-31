@@ -1007,7 +1007,7 @@ class Correction:
 
 ########################################
 if __name__ == "__main__":
-    dataset_name = "rayyan"
+    dataset_name = "hospital"
     dataset_dictionary = {
         "name": dataset_name,
         "path": os.path.abspath(
@@ -1026,7 +1026,7 @@ if __name__ == "__main__":
     app.GPDEP_CORRECTION_SCORE_THRESHOLD = 0.00
     app.SAVE_RESULTS = False
     # "sim" "type" "rule"
-    app.FEATURE_GENERATORS = ['value', 'domain', 'vicinity', 'rule']
+    app.FEATURE_GENERATORS = ['value', 'domain', 'vicinity', 'rule', 'type', 'sim']
     app.IMPUTER_CACHE_MODEL = True
     app.VERBOSE = False
     seed = None
